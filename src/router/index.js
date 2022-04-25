@@ -32,8 +32,8 @@ const routes = [
         component: VideoView
     },
     {
-        path: '/serach',
-        name: 'serach',
+        path: '/search',
+        name: 'search',
         component: SearchView
     },
 ]

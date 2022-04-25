@@ -1,16 +1,17 @@
 <template>
-  <HeaderCom/>
-  <router-view/>
+    <HeaderCom/>
+    <router-view/>
 </template>
 
 <script>
-  import HeaderCom from "@/components/header/HeaderCom";
-  export default {
-    name: "App",
-    components:{
-      HeaderCom
+    import HeaderCom from "@/components/header/HeaderCom";
+
+    export default {
+        name: "App",
+        components: {
+            HeaderCom
+        }
     }
-  }
 </script>
 
 <style>
