@@ -1,5 +1,5 @@
 <template>
-    <HeaderCom/>
+    <!--<HeaderCom/>-->
     <router-view/>
 </template>
 
@@ -9,7 +9,7 @@
     export default {
         name: "App",
         components: {
-            HeaderCom
+            /*HeaderCom*/
         }
     }
 </script>

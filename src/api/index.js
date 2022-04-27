@@ -21,8 +21,14 @@ export function getBanner(type = 0) {
 
 }
 
+//获取歌单列表
 export function getMusicList(limit = 10) {
     return axios.get(`${baseUrl}/personalized?limit=${limit}`)
+}
+
+//获取某歌单对应的歌曲
+export function getPlayListDetail(id) {
+    return axios.get(`${baseUrl}/playlist/detail?id=${id}`)
 }
 
 
