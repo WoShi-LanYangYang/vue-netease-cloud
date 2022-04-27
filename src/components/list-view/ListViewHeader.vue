@@ -62,7 +62,6 @@
     .header {
         width: 100%;
         background: #fff;
-        margin-top: 8px;
         display: inline-block;
         .headerL {
             float: left;
